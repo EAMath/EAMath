@@ -75,7 +75,7 @@ $(".buttonD-L").click(function(){
   var b = Square(a) + Square(c);
 
   if(areAllInputsFull(2)){
-    document.getElementById("Length").innerHTML = b
+    document.getElementById("Length").innerHTML =  b  + " = a² + c² = b² + d²"
   }
   else{
   alert("Eksik Girilen Yeri Doldurun");
